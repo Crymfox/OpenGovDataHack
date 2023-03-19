@@ -1,15 +1,15 @@
-import Header from "./components/Header"
+import { Routes, Route } from "react-router-dom"
 import Navbar from "./components/Navbar"
+import Landing from "./pages/Landing"
 
 const App = () => {
   
   return (
     <div>
       <Navbar />
-      <Header />
-      <div className="grid place-items-center">
-        <button className="px-6 py-4 text-2xl bg-blue-600 hover:bg-blue-700 rounded text-white">Start Quizz</button>
-      </div>
+      <Routes>
+        <Route path="/" element={<Landing />} />      
+      </Routes>
     </div>
   )
 }
