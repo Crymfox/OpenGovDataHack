@@ -4,7 +4,7 @@ type Props = {
     type: string
 }
 
-const Card = ({type}: Props) => {
+const PartnerCard = ({type}: Props) => {
     return (
         <div className="rounded hover:shadow-lg cursor-pointer border-2 border-blue-800 p-5 grid place-items-center h-80 w-72 m-5">
             <img src="/assets/Partner.png" alt="" />
@@ -17,4 +17,4 @@ const Card = ({type}: Props) => {
     )
 }
 
-export default Card
+export default PartnerCard

@@ -1,5 +1,5 @@
 import { Badge } from "@tremor/react"
-import Card from "../components/Card"
+import PartnerCard from "../components/PartnerCard"
 
 const data = [
     "Academic institutions",
@@ -27,13 +27,13 @@ const Partners = () => {
                 )
             })}
             <div className="flex flex-wrap">
-                <Card type={data[0]} />
-                <Card type={data[1]} />
-                <Card type={data[2]} />
-                <Card type={data[3]} />
-                <Card type={data[4]} />
-                <Card type={data[5]} />
-                <Card type={data[6]} />
+                <PartnerCard type={data[0]} />
+                <PartnerCard type={data[1]} />
+                <PartnerCard type={data[2]} />
+                <PartnerCard type={data[3]} />
+                <PartnerCard type={data[4]} />
+                <PartnerCard type={data[5]} />
+                <PartnerCard type={data[6]} />
             </div>           
         </div>
     )
