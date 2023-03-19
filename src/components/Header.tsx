@@ -20,4 +20,4 @@ const Header = ({title, description, image}: HeaderProps) => {
     )
 }
 
-export default Header
+export default Header;
