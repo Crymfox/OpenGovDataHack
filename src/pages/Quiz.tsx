@@ -1,4 +1,5 @@
 import Header from "../components/Header"
+import Question from "../components/Question"
 
 const data = {
     title: "Topic of the Quiz",
@@ -49,7 +50,13 @@ const Quiz = () => {
     return (
         <div>
             <Header title={data.title} description={data.description} />
-            
+            {
+                questions.map((question, index) => {
+                    return (
+                        <Question key={index} number={index} question={question.questionText} options={question.answerOptions} />
+                    )
+                })
+            }
         </div>
     )
 }
