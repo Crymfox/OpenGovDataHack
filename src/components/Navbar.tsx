@@ -5,11 +5,11 @@ const Navbar = () => {
                 <img src="/assets/Logo.png" alt="Logo" width={150} />
             </a>
             <div className="ml-auto"></div>
-            <a href="" className="p-4 hover:bg-blue-700 duration-300">Catalogue</a>
-            <a href="" className="p-4 hover:bg-blue-700 duration-300">University</a>
-            <a href="" className="p-4 hover:bg-blue-700 duration-300">School</a>
-            <a href="" className="p-4 hover:bg-blue-700 duration-300">Share</a>
-            <a href="" className="p-4 hover:bg-blue-700 duration-300">Partners</a>
+            <a href="" className="p-4 hover:bg-blue-900 duration-300">Catalogue</a>
+            <a href="" className="p-4 hover:bg-blue-900 duration-300">University</a>
+            <a href="" className="p-4 hover:bg-blue-900 duration-300">School</a>
+            <a href="" className="p-4 hover:bg-blue-900 duration-300">Share</a>
+            <a href="" className="p-4 hover:bg-blue-900 duration-300">Partners</a>
         </div>
     )
 }
